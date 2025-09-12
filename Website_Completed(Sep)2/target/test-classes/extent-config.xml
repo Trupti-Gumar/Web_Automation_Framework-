@@ -1,0 +1,33 @@
+<extentreports>
+    <configuration>
+        <!-- Report Styling -->
+        <theme>dark</theme>
+        <encoding>UTF-8</encoding>
+        <protocol>HTTPS</protocol>
+
+        <!-- Titles -->
+        <documentTitle>Automation Execution Report</documentTitle>
+        <reportName>Aldermore Automation Suite</reportName>
+
+        <!-- Chart & Layout -->
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+        <timelineEnabled>true</timelineEnabled>
+        <testViewChartLocation>top</testViewChartLocation>
+
+        <!-- Additional Views -->
+        <enableCategoryView>true</enableCategoryView>
+        <enableAuthorView>true</enableAuthorView>
+        <enableExceptionView>true</enableExceptionView>
+
+        <!-- Timestamp format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- Custom CSS -->
+        <css>
+            .badge-primary { background-color: #0066cc; }
+            .status.pass { background-color: #28a745; }
+            .status.fail { background-color: #dc3545; }
+            .status.skip { background-color: #ffc107; }
+        </css>
+    </configuration>
+</extentreports>

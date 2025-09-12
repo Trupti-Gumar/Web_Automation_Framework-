@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/main/java/pages/actions/AldermoreHomePageActions.java=UTF-8
+encoding//src/main/java/pages/actions/AldermoreHomePageFooterPageActions.java=UTF-8
+encoding//src/main/java/pages/actions/AldermorePageActions.java=UTF-8
+encoding//src/main/java/pages/actions/HelpActions.java=UTF-8
+encoding//src/main/java/pages/actions/PersonalSavingsAccountPageActions.java=UTF-8
+encoding//src/main/java/pages/locators/AldermoreHomePageLocators.java=UTF-8
+encoding//src/main/java/pages/locators/PersonalSavingsAccountPageLocators.java=UTF-8
+encoding//src/main/java/utils/SeleniumDriver.java=UTF-8
+encoding//src/test/java/Help_Feature_Steps/HelpSteps.java=UTF-8
+encoding//src/test/java/runners/SavingsRunner.java=UTF-8
+encoding//src/test/java/runners/TabsFeatureRunner.java=UTF-8
+encoding//src/test/java/steps/CommonSteps.java=UTF-8
+encoding//src/test/java/steps/HomepageTabsSteps.java=UTF-8

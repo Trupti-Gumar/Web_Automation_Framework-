@@ -1,0 +1,20 @@
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <encoding>utf-8</encoding>
+        <protocol>HTTPS</protocol>
+
+        <documentTitle>Automation Execution Report</documentTitle>
+        <reportName>Aldermore Automation Suite</reportName>
+
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+        <timelineEnabled>true</timelineEnabled>
+        <testViewChartLocation>top</testViewChartLocation>
+
+        <css>
+            .badge-primary { background-color: #0066cc; }
+            .status.pass { background-color: #28a745; }
+            .status.fail { background-color: #dc3545; }
+        </css>
+    </configuration>
+</extentreports>

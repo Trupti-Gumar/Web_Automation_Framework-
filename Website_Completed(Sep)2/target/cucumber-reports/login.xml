@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="110.734">
+    <testcase classname="Login page" name="Verify the Login page header" time="4.68">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see the "Login centre" as the header for the Login page........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;All&quot; present on the Login page" time="1.841">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see the NavigationBar options "All" present on the Login page..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Savings&quot; present on the Login page" time="1.771">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see the NavigationBar options "Savings" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Mortgages&quot; present on the Login page" time="1.944">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see the NavigationBar options "Mortgages" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Business finance&quot; present on the Login page" time="1.76">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see the NavigationBar options "Business finance" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Savings&quot; present on the Login page" time="1.792">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see these Text headers "Savings" present on the Login page.....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Mortgages&quot; present on the Login page" time="1.858">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see these Text headers "Mortgages" present on the Login page...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Business finance&quot; present on the Login page" time="1.754">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should see these Text headers "Business finance" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Personal savings internet banking&quot; present on the Login page" time="1.736">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+Then I should see these card headers "Personal savings internet banking" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Business savings internet banking&quot; present on the Login page" time="1.75">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+Then I should see these card headers "Business savings internet banking" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Residential mortgages broker portal&quot; present on the Login page" time="1.692">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+Then I should see these card headers "Residential mortgages broker portal" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Specialist buy to let mortgage portal&quot; present on the Login page" time="2.083">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+Then I should see these card headers "Specialist buy to let mortgage portal" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Asset finance Asset Backer&quot; present on the Login page" time="1.595">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+Then I should see these card headers "Asset finance Asset Backer" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the &quot;Invoice finance E3&quot; present on the Login page" time="1.589">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+Then I should see these card headers "Invoice finance E3" present on the Login page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the cardlink redirect to the respective page." time="13.029">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should be able to click on this "Personal savings internet banking" cardlink on the Login page and redirected to the "Login" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the cardlink redirect to the respective page. 2" time="13.045">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should be able to click on this "Business savings internet banking" cardlink on the Login page and redirected to the "Log in" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the cardlink redirect to the respective page. 3" time="13.332">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should be able to click on this "Residential mortgages broker portal" cardlink on the Login page and redirected to the "Aldermore Residential - Login" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the cardlink redirect to the respective page. 4" time="13.105">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should be able to click on this "Specialist buy to let mortgage portal" cardlink on the Login page and redirected to the "Aldermore Commercial - Login" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the cardlink redirect to the respective page. 5" time="13.091">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should be able to click on this "Asset finance Asset Backer" cardlink on the Login page and redirected to the "Log in" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Verify the cardlink redirect to the respective page. 6" time="13.273">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I click on Login link..................................................passed
+Then I should navigate to Login page........................................passed
+And I should be able to click on this "Invoice finance E3" cardlink on the Login page and redirected to the "E3 login page" page.passed
+]]></system-out>
+    </testcase>
+</testsuite>

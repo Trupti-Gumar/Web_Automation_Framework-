@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="74" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="74" time="13.374">
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the One Year Fixed Rate Cash ISA header" time="0.136">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the "1 year fixed rate cash ISA" as the header for the One Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Masthead Black box contents" time="0.014">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the "New customers" as the header for the Masthead Black box.skipped
+And I should see the "Existing customers" as the secondary title for the Masthead Black box.skipped
+And I Shoud see CTA button "Apply now"......................................skipped
+When I click on CTA button..................................................skipped
+Then I am redirected to One Year Fixed Rate Cash ISA  account opening form page.skipped
+And I should be able to click on login link and redirected to the Online Banking login page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values" time="0.03">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the One Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Interest rate(*AER)" on the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Interest rate(*AER)" value as "4.90%" on the One Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 2" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the One Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Minimum opening balance" on the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Minimum opening balance" value as "1,000" on the One Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 3" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the One Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Term" on the One Year Fixed Rate Cash ISA Product Card....skipped
+Then I should see the "Term" value as "1 year" on the One Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 4" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the One Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Gross monthly interest" on the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Gross monthly interest" value as "4.79%" on the One Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 5" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the One Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Gross annual interest" on the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Gross annual interest" value as "4.90%" on the One Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify Product summary FAQs present on One Year Fixed Rate Cash ISA page" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the Product summary FAQs header "Summary box"  on One Year Fixed Rate Cash ISA page.skipped
+And I should see the Product summary FAQs Accordians on the One Year Fixed Rate Cash ISA section.skipped
+When I click on accordion...................................................skipped
+Then accordion is expanded..................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Yellow CTA banner on the One Year Fixed Rate Cash ISA page" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the Yellow CTA banner on the One Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on Yellow CTA banner on One Year Fixed Rate Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section present on the One Year Fixed Rate Cash ISA page" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Opening an account" as the header for the "Second"  image copy section on the One Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section present on the One Year Fixed Rate Cash ISA page 2" time="0.016">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the "ISA Transfers" as the header for the "Third"  image copy section on the One Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section link" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should be able to click on ISA Transfers  Image copy CTA button and should be redirected to "Can I transfer some or all of my existing cash ISA?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify Cash ISA FAQs present on One Year Fixed Rate Cash ISA page" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the Cash ISA FAQs header "Cash ISA FAQs"  on One Year Fixed Rate Cash ISA page.skipped
+And I should see the Cash ISA FAQs Accordians on the One Year Fixed Rate Cash ISA section.skipped
+And I should be click on the Cash ISA FAQs accordian and it should expand...skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Accordion Black box contents" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Haven't found what you're looking for?" as the header for the accordion Black box.skipped
+And I Shoud see CTA text link  "Help and support"...........................skipped
+When I click on CTA text link...............................................skipped
+Then I am redirected to "Help & Support for Personal Savings Customers" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Fixed rate cash ISAs summary box card present on the One Year Fixed Rate Cash ISA page" time="0.008">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Fixed rate cash ISAs summary box" as the header for the Fixed rate cash ISAs summary box card on the One Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on the download document for Fixed rate cash ISAs summary box card and downlaod the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the Personal Savings Terms and Conditions card present on the One Year Fixed Rate Cash ISA page" time="0.014">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Personal Savings Terms and Conditions" as the header for the Personal Savings Terms and Conditions card on the One Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on the download document for Personal Savings Terms and Conditions card and downlaod the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="One Year Fixed Rate Cash ISA Product Card page" name="Verify the White CTA banner on the One Year Fixed Rate Cash ISA page" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see One Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the One Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to One Year Fixed Rate Cash ISA page.................skipped
+And I should see the White CTA banner on the One Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on White CTA banner on One Year Fixed Rate Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Thirty Days Notice Cash ISA header" time="0.009">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the "30 day notice cash ISA" as the header for the Thirty Days Notice Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Masthead Black box contents" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the "New customers" as the header for the Masthead Black box.skipped
+And I should see the "Existing customers" as the secondary title for the Masthead Black box.skipped
+And I Shoud see CTA button "Apply now"......................................skipped
+And I should click on the CTA buton and redirected to account opening form page for 30 days fixed rate cash ISA.skipped
+And I should be able to click on login link and redirected to the Online Banking login page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Interest rate product card values" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Thirty Days Notice Cash ISA Product Card...............skipped
+When I check the "Interest rate(*AER)" on the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should see the "Interest rate(*AER)" value as "4.50%" on the Thirty Days Notice Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Interest rate product card values 2" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Thirty Days Notice Cash ISA Product Card...............skipped
+When I check the "Minimum opening balance" on the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should see the "Minimum opening balance" value as "1,000" on the Thirty Days Notice Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Interest rate product card values 3" time="0.007">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Thirty Days Notice Cash ISA Product Card...............skipped
+When I check the "Term" on the Thirty Days Notice Cash ISA Product Card.....skipped
+Then I should see the "Term" value as "30 days' notice" on the Thirty Days Notice Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Interest rate product card values 4" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Thirty Days Notice Cash ISA Product Card...............skipped
+When I check the "Gross monthly interest" on the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should see the "Gross monthly interest" value as "4.41%" on the Thirty Days Notice Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Interest rate product card values 5" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Thirty Days Notice Cash ISA Product Card...............skipped
+When I check the "Gross annual interest" on the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should see the "Gross annual interest" value as "4.50%" on the Thirty Days Notice Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify Product summary FAQs present on Thirty Days Notice Cash ISA page" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Product summary FAQs header "Product summary"  on Thirty Days Notice Cash ISA page.skipped
+And I should see the Product summary FAQs Accordians on the Thirty Days Notice Cash ISA section.skipped
+When I click on accordion...................................................skipped
+Then accordion is expanded..................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Yellow CTA banner on the Thirty Days Notice Cash ISA page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Yellow CTA banner on the Thirty Days Notice Cash ISA page.skipped
+And I should be able to click on Yellow CTA banner on Thirty Days Notice Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Image copy section present on the Thirty Days Notice Cash ISA page" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the "Opening an account" as the header for the "Second"  image copy section on the Thirty Days Notice Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Image copy section present on the Thirty Days Notice Cash ISA page 2" time="0.008">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the "ISA Transfers" as the header for the "Third"  image copy section on the Thirty Days Notice Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Image copy section link" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should be able to click on ISA Transfers  Image copy CTA button and should be redirected to "Can I transfer some or all of my existing cash ISA?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify Cash ISA FAQs present on Thirty Days Notice Cash ISA page" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the Cash ISA FAQs header "Cash ISA FAQs"  on Thirty Days Notice Cash ISA page.skipped
+And I should see the Cash ISA FAQs Accordians on the Thirty Days Notice Cash ISA section.skipped
+And I should be click on the Cash ISA FAQs accordian and it should expand...skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Accordion Black box contents" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the "Haven't found what you're looking for?" as the header for the accordion Black box.skipped
+And I Shoud see CTA text link  "Help and support"...........................skipped
+When I click on CTA text link...............................................skipped
+Then I am redirected to "Help & Support for Personal Savings Customers" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the Personal Savings Terms and Conditions card present on the Thirty Days Notice Cash ISA page" time="0.011">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the "Personal Savings Terms and Conditions" as the header for the Personal Savings Terms and Conditions card on the Thirty Days Notice Cash ISA page.skipped
+And I should be able to click on the download document for Personal Savings Terms and Conditions card and downlaod the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Thirty Days Notice Cash ISA Product Card page" name="Verify the White CTA banner on the Thirty Days Notice Cash ISA page" time="0.013">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Thirty Days Notice Cash ISA  Product Card.................skipped
+When I click on the view account button for the Thirty Days Notice Cash ISA Product Card.skipped
+Then I should navigate to Thirty Days Notice Cash ISA page..................skipped
+And I should see the White CTA banner on the Thirty Days Notice Cash ISA page.skipped
+And I should be able to click on White CTA banner on Thirty Days Notice Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Three Year Fixed Rate Cash ISA header" time="0.074">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the "3 year fixed rate cash ISA" as the header for the Three Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Masthead Black box contents" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the "New customers" as the header for the Masthead Black box.skipped
+And I should see the "Existing customers" as the secondary title for the Masthead Black box.skipped
+And I Shoud see CTA button "Apply now"......................................skipped
+And I should click on the CTA buton and redirected to account opening form page for 3 year fixed rate cash ISA.skipped
+And I should be able to click on login link and redirected to the Online Banking login page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values" time="0.019">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Three Year Fixed Rate Cash ISA Product Card............skipped
+When I check the "Interest rate(*AER)" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Interest rate(*AER)" value as "4.40%" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Three Year Fixed Rate Cash ISA Product Card............skipped
+When I check the "Minimum opening balance" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Minimum opening balance" value as "1,000" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 3" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Three Year Fixed Rate Cash ISA Product Card............skipped
+When I check the "Term" on the Three Year Fixed Rate Cash ISA Product Card..skipped
+Then I should see the "Term" value as "3 years" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 4" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Three Year Fixed Rate Cash ISA Product Card............skipped
+When I check the "Gross monthly interest" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Gross monthly interest" value as "4.31%" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 5" time="0.043">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Three Year Fixed Rate Cash ISA Product Card............skipped
+When I check the "Gross annual interest" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Gross annual interest" value as "4.40%" on the Three Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify Product summary FAQs present on Three Year Fixed Rate Cash ISA page" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Product summary FAQs header "Summary box"  on Three Year Fixed Rate Cash ISA page.skipped
+And I should see the Product summary FAQs Accordians on the Three Year Fixed Rate Cash ISA section.skipped
+When I click on accordion...................................................skipped
+Then accordion is expanded..................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Yellow CTA banner on the Three Year Fixed Rate Cash ISA page" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Yellow CTA banner on the Three Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on Yellow CTA banner on Three Year Fixed Rate Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section present on the Three Year Fixed Rate Cash ISA page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the "Opening an account" as the header for the "Second"  image copy section on the Three Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section present on the Three Year Fixed Rate Cash ISA page 2" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the "ISA Transfers" as the header for the "Third"  image copy section on the Three Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section link" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should be able to click on ISA Transfers  Image copy CTA button and should be redirected to "Can I transfer some or all of my existing cash ISA?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify Cash ISA FAQs present on Three Year Fixed Rate Cash ISA page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the Cash ISA FAQs header "Cash ISA FAQs"  on Three Year Fixed Rate Cash ISA page.skipped
+And I should see the Cash ISA FAQs Accordians on the Three Year Fixed Rate Cash ISA section.skipped
+And I should be click on the Cash ISA FAQs accordian and it should expand...skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Accordion Black box contents" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the "Haven't found what you're looking for?" as the header for the accordion Black box.skipped
+And I Shoud see CTA text link  "Help and support"...........................skipped
+When I click on CTA text link...............................................skipped
+Then I am redirected to "Help & Support for Personal Savings Customers" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Fixed rate cash ISAs summary box card present on the Three Year Fixed Rate Cash ISA page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the "Fixed rate cash ISAs summary box" as the header for the Fixed rate cash ISAs summary box card on the Three Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on the download document for Fixed rate cash ISAs summary box card and downlaod the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the Personal Savings Terms and Conditions card present on the Three Year Fixed Rate Cash ISA page" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the "Personal Savings Terms and Conditions" as the header for the Personal Savings Terms and Conditions card on the Three Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on the download document for Personal Savings Terms and Conditions card and downlaod the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Three Year Fixed Rate Cash ISA Product Card page" name="Verify the White CTA banner on the Three Year Fixed Rate Cash ISA page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Three Year Fixed Rate Cash ISA  Product Card..............skipped
+When I click on the view account button for the Three Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Three Year Fixed Rate Cash ISA page...............skipped
+And I should see the White CTA banner on the Three Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on White CTA banner on Three Year Fixed Rate Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Two Year Fixed Rate Cash ISA header" time="0.008">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the "2 year fixed rate cash ISA" as the header for the Two Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Masthead Black box contents" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the "New customers" as the header for the Masthead Black box.skipped
+And I should see the "Existing customers" as the secondary title for the Masthead Black box.skipped
+And I Shoud see CTA button "Apply now"......................................skipped
+And I should click on the CTA buton and redirected to account opening form page for 2 year fixed rate cash ISA.skipped
+And I should be able to click on login link and redirected to the Online Banking login page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Two Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Interest rate(*AER)" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Interest rate(*AER)" value as "4.50%" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Two Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Minimum opening balance" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Minimum opening balance" value as "1,000" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 3" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Two Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Term" on the Two Year Fixed Rate Cash ISA Product Card....skipped
+Then I should see the "Term" value as "2 years" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 4" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Two Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Gross monthly interest" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Gross monthly interest" value as "4.41%" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Interest rate product card values 5" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Two Year Fixed Rate Cash ISA Product Card..............skipped
+When I check the "Gross annual interest" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should see the "Gross annual interest" value as "4.50%" on the Two Year Fixed Rate Cash ISA Product Card.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify Product summary FAQs present on Two Year Fixed Rate Cash ISA page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Product summary FAQs header "Summary box"  on Two Year Fixed Rate Cash ISA page.skipped
+And I should see the Product summary FAQs Accordians on the Two Year Fixed Rate Cash ISA section.skipped
+When I click on accordion...................................................skipped
+Then accordion is expanded..................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Yellow CTA banner on the Two Year Fixed Rate Cash ISA page" time="0.01">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Yellow CTA banner on the Two Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on Yellow CTA banner on Two Year Fixed Rate Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section present on the Two Year Fixed Rate Cash ISA page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Opening an account" as the header for the "Second"  image copy section on the Two Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section present on the Two Year Fixed Rate Cash ISA page 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the "ISA Transfers" as the header for the "Third"  image copy section on the Two Year Fixed Rate Cash ISA page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Image copy section link" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should be able to click on ISA Transfers  Image copy CTA button and should be redirected to "Can I transfer some or all of my existing cash ISA?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify Cash ISA FAQs present on Two Year Fixed Rate Cash ISA page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the Cash ISA FAQs header "Cash ISA FAQs"  on Two Year Fixed Rate Cash ISA page.skipped
+And I should see the Cash ISA FAQs Accordians on the Two Year Fixed Rate Cash ISA section.skipped
+And I should be click on the Cash ISA FAQs accordian and it should expand...skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Accordion Black box contents" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Haven't found what you're looking for?" as the header for the accordion Black box.skipped
+And I Shoud see CTA text link  "Help and support"...........................skipped
+When I click on CTA text link...............................................skipped
+Then I am redirected to "Help & Support for Personal Savings Customers" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Fixed rate cash ISAs summary box card present on the Two Year Fixed Rate Cash ISA page" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Fixed rate cash ISAs summary box" as the header for the Fixed rate cash ISAs summary box card on the Two Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on the download document for Fixed rate cash ISAs summary box card and downlaod the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the Personal Savings Terms and Conditions card present on the Two Year Fixed Rate Cash ISA page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the "Personal Savings Terms and Conditions" as the header for the Personal Savings Terms and Conditions card on the Two Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on the download document for Personal Savings Terms and Conditions card and downlaod the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Two Year Fixed Rate Cash ISA Product Card page" name="Verify the White CTA banner on the Two Year Fixed Rate Cash ISA page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see Two Year Fixed Rate Cash ISA  Product Card................skipped
+When I click on the view account button for the Two Year Fixed Rate Cash ISA Product Card.skipped
+Then I should navigate to Two Year Fixed Rate Cash ISA page.................skipped
+And I should see the White CTA banner on the Two Year Fixed Rate Cash ISA page.skipped
+And I should be able to click on White CTA banner on Two Year Fixed Rate Cash ISA page and rediredcted to the corresponding page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Cash ISAs" name="Verify the Cash ISAs header" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see the "Cash ISAs" as the header for the Cash ISAs page......skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Cash ISAs" name="Verify the USP section present on the Cash ISAs page" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see the USP section on the page...............................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Cash ISAs" name="Verify the Image copy section present on the Cash ISAs" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see the "What is a Cash ISA?" as the header for the "First"  image copy section on the Cash ISAs page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Cash ISAs" name="Verify the Image copy section present on the Cash ISAs 2" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see the "Looking to open multiple ISAs?" as the header for the "Second"  image copy section on the Cash ISAs page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Cash ISAs" name="Verify the Image copy section present on the Cash ISAs 3" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see the "ISA Transfers" as the header for the "Third"  image copy section on the Cash ISAs page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Cash ISAs" name="Verify the Image copy section link" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should be able to click on ISA Transfers  Image copy CTA button and should be redirected to "Can I transfer some or all of my existing cash ISA?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Cash ISAs" name="Verify Cash ISA FAQs present on Double access savings account page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on a Aldermore home page.........................................undefined
+When I navigate to Cash ISAs page...........................................skipped
+Then I should see the Cash ISA FAQs header "Cash ISA FAQs"  on Cash ISA page.skipped
+And I should see the Accordians on the Cash ISA FAQs section................skipped
+And I should see the more card header "Haven't found what you're looking for?" on Cash ISA FAQs section.skipped
+And I should be able to click on More Card Help and Support CTA button should be redirected to "Help & Support for Personal Savings Customers" page.skipped
+]]></failure>
+    </testcase>
+</testsuite>

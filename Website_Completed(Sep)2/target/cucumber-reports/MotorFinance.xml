@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="32.834">
+    <testcase classname="MotoNovo Finance Page" name="Verify the MotoNovo Finance page header" time="2.57">
+        <failure message="element click intercepted: Element &lt;span class=&quot;navigation-menu__dropdown-header__span&quot;&gt;...&lt;/span&gt; is not clickable at point (654, 121). Other element would receive the click: &lt;div class=&quot;onetrust-pc-dark-filter ot-fade-in&quot; style=&quot;z-index:2147483645;&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=118.0.5993.70)&#10;Build info: version: '4.11.0', revision: '040bc5406b'&#10;System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9f05fdbd7d702c21126ec7b68d14cf2f, clickElement {id=A366EC511A0DD10AA093D182D2E384E8_element_18}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\TRUPTI~1.GUM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53218/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (9f05fdbd7d702c21126ec7b68d14cf2f)] -&gt; xpath: //span[normalize-space()='Motor finance']]&#10;Session ID: 9f05fdbd7d702c21126ec7b68d14cf2f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given I am on Aldermore home page...........................................passed
+When I navigate to MotoNovo Finance page....................................failed
+And I should be able to click on the "Motonovo Finance" link present on the MotoNovo Finance page and redirected to the "MotoNovo Finance" page.skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="navigation-menu__dropdown-header__span">...</span> is not clickable at point (654, 121). Other element would receive the click: <div class="onetrust-pc-dark-filter ot-fade-in" style="z-index:2147483645;"></div>
+  (Session info: chrome=118.0.5993.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f05fdbd7d702c21126ec7b68d14cf2f, clickElement {id=A366EC511A0DD10AA093D182D2E384E8_element_18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\TRUPTI~1.GUM\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53218/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9f05fdbd7d702c21126ec7b68d14cf2f)] -> xpath: //span[normalize-space()='Motor finance']]
+Session ID: 9f05fdbd7d702c21126ec7b68d14cf2f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at utils.SeleniumDriver.clickOnElement(SeleniumDriver.java:141)
+	at MotorFinance_Feature_Steps.MotoNovoFinance_Steps.I_navigate_to_MotoNovo_Finance_page(MotoNovoFinance_Steps.java:39)
+	at ✽.I navigate to MotoNovo Finance page(file:///G:/TRG/Website-Test-Automation-couk_Automation_Handover/Website-Test-Automation-couk_Automation_Handover/src/test/resources/MotorFinance_FeatureFiles/Motorfinance_MotoNovoFinance.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Motor Finance Page" name="Verify the Motor Finance page header" time="8.336">
+        <system-out><![CDATA[Given I am on the Aldermore home page.......................................passed
+When I navigate to Motor Finance page.......................................passed
+And I should be able to click on the "Motor Finance" link present on the Motor Finance page and redirected to the "Driving forward through innovation and change - MotoNovo Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Motor Finance By MotoNovo Page" name="Verify the Motor Finance By MotoNovo page header" time="2.572">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Motor Finance By MotoNovo page...........................passed
+Then I should see the "Motor Finance by MotoNovo" as the header for the Motor Finance By MotoNovo page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Motor Finance By MotoNovo Page" name="Verify the Masthead black box present on the page" time="2.141">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Motor Finance By MotoNovo page...........................passed
+And I should see the "MotoNovo Finance" as the header for the Masthead black box on the Motor Finance By MotoNovo page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Motor Finance By MotoNovo Page" name="Verify the Masthead black box links present on the page" time="7.678">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Motor Finance By MotoNovo page...........................passed
+And I should be able to click on the "Visit website" link present on the Motor Finance By MotoNovo page and redirected to the "Driving forward through innovation and change - MotoNovo Finance" page.passed
+]]></system-out>
+    </testcase>
+</testsuite>

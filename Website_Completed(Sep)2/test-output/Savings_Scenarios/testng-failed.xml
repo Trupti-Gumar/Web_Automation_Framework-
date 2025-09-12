@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Savings_Scenarios]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="runners.SavingsRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDown"/>
+          <include name="runScenario" invocation-numbers="9 31 48 51 52 109 113 116 119 122 125 128 131 134 158 160 161 164 165 194 197 198 211 214 215 236 244 269 282 291 294 295 300 306 309 310 320 323 324 327 335 338 339 350 353 354 368 410 414 415 416"/>
+          <include name="setUp"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runners.SavingsRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Savings_Scenarios] -->

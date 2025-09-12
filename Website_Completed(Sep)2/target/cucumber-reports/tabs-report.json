@@ -1,0 +1,3805 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3073939700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:34:30.583Z",
+        "line": 15,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6199491600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11381925000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Personal savings accounts\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Personal savings accounts\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 59
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 422599500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 772536400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:34:51.878Z",
+        "line": 16,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5819065800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11241162600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Fixed rate savings\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fixed rate savings\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 288179400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 700567400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:35:10.203Z",
+        "line": 17,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5521314400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11172898500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Cash ISAs\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cash ISAs\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 349080100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 650316000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:35:28.158Z",
+        "line": 18,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5528562400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11116709800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Reward cash ISAs\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reward cash ISAs\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351558200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 732581900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:35:46.006Z",
+        "line": 19,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5536695900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11072338100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Easy access savings\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Easy access savings\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 298103800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 728376500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:36:03.848Z",
+        "line": 20,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1004800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5555390900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11280755800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Double access savings\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Double access savings\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 55
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281643700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 485909400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:36:21.890Z",
+        "line": 21,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1001300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5544571200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11120182800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Regular savings\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Regular savings\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 432533400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 697692300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:36:39.690Z",
+        "line": 22,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5505595000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10962803700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Notice savings\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Notice savings\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275707500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 720740600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:36:57.393Z",
+        "line": 23,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 1001800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5548241800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11226779300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Business savings accounts\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business savings accounts\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 59
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285616300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 717960900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:37:15.407Z",
+        "line": 24,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;11",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5596441300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11115209200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Corporate deposits\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Corporate deposits\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 364784500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 760280900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:37:33.406Z",
+        "line": 25,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;12",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5579730500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11137380900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Help and support\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Help and support\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 422323000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 642018800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:37:51.510Z",
+        "line": 26,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;13",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5546388000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11152442700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Bereavement guide\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bereavement guide\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 348196200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 648359200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:38:09.384Z",
+        "line": 27,
+        "name": "Validate each link under \"Savings\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"savings\"-tab;;14",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5512627300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I expand the \"Savings\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11088280700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should verify the link \"Insights for Savers\" under \"Savings\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insights for Savers\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Savings\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 300746700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should print the number of links under \"Savings\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 716501100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:38:27.142Z",
+        "line": 37,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5632305100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11165073900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Residential mortgages\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Residential mortgages\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 55
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 373428200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 688016400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:38:45.246Z",
+        "line": 38,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5540972700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11195453300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"First time buyer mortgages\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"First time buyer mortgages\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 60
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 258082200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 703711600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:39:03.120Z",
+        "line": 39,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5532869600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11247244200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Self-employed mortgages\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Self-employed mortgages\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 57
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 239002500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 736651800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:39:21.043Z",
+        "line": 40,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5551099500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10997350600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Customers with credit problems\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers with credit problems\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 64
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281643200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 728552300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:39:38.808Z",
+        "line": 41,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5542545900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11200396300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Switch your mortgage\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Switch your mortgage\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 54
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246524400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 706900800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:39:56.724Z",
+        "line": 42,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5541282400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11150762500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Buy to let mortgages\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Buy to let mortgages\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 54
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 288212600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 652103900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:40:14.610Z",
+        "line": 43,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5559709600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11122926900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Buy to let limited company mortgages\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Buy to let limited company mortgages\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 70
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 329822000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 781411600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:40:32.470Z",
+        "line": 45,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5693246200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11166847700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Money worries\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Money worries\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251184700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 811874100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:40:50.562Z",
+        "line": 46,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;10",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5541918100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11192535200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Mortgage charter\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgage charter\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 312356600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 700511200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:41:08.618Z",
+        "line": 47,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;11",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5515229700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11119633200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Borrowing more\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrowing more\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 343223800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 684798500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:41:26.484Z",
+        "line": 49,
+        "name": "Validate each link under \"Mortgages\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"mortgages\"-tab;;12",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5534374600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I expand the \"Mortgages\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11111502200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should verify the link \"Insights for homebuyers and landlords\" under \"Mortgages\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insights for homebuyers and landlords\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 71
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 282540500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should print the number of links under \"Mortgages\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mortgages\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 666198800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:41:44.293Z",
+        "line": 59,
+        "name": "Validate each link under \"Motor Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"motor-finance\"-tab;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5683146800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I expand the \"Motor Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11141694700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should verify the link \"MotoNovo Finance\" under \"Motor Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MotoNovo Finance\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 167860800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I should print the number of links under \"Motor Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 752146500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:42:02.162Z",
+        "line": 60,
+        "name": "Validate each link under \"Motor Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"motor-finance\"-tab;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5548313400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I expand the \"Motor Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11030012300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should verify the link \"Motor finance\" under \"Motor Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor finance\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193402800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I should print the number of links under \"Motor Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 719958600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:42:19.896Z",
+        "line": 61,
+        "name": "Validate each link under \"Motor Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"motor-finance\"-tab;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5564593500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I expand the \"Motor Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11157144400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should verify the link \"Commission complaints\" under \"Motor Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Commission complaints\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 55
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109999200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I should print the number of links under \"Motor Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 660625500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:42:37.645Z",
+        "line": 71,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5584505100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11024362300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Business finance\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business finance\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 389426400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 542932000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:42:55.490Z",
+        "line": 72,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5575806400,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11086137600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Invoice finance\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invoice finance\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 243554500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 738612200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:43:13.143Z",
+        "line": 73,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5590437400,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11107429200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Asset finance\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Asset finance\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305715700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 752709900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:43:31.095Z",
+        "line": 74,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5533505500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11196882900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Commercial Real Estate\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Commercial Real Estate\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 56
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251697800,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 654007400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:43:49.032Z",
+        "line": 76,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5594033200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11017269500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Invoice finance FAQs\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invoice finance FAQs\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 54
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 307387000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 710547600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:44:06.799Z",
+        "line": 77,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5622585300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11130474500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Asset finance FAQs\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Asset finance FAQs\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285192300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 692455800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:44:24.750Z",
+        "line": 78,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5570622000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11224034000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Property development finance FAQs\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Property development finance FAQs\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 67
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254995900,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 713951800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:44:42.678Z",
+        "line": 82,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5542410500,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11222246200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Customer stories\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customer stories\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265118000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 707804500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Aldermore homepage",
+            "match": {
+              "location": "steps.CommonSteps.i_am_on_the_aldermore_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-09-08T20:45:00.615Z",
+        "line": 83,
+        "name": "Validate each link under \"Business Finance\" tab",
+        "description": "",
+        "id": "verify-homepage-tabs-and-their-links-are-working;validate-each-link-under-\"business-finance\"-tab;;10",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.AfterActions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5544605900,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I expand the \"Business Finance\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_expand_the_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11121540000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should verify the link \"Insights for Businesses\" under \"Business Finance\" tab is working",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insights for Businesses\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 57
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_verify_the_link_under_tab_is_working(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 323757400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should print the number of links under \"Business Finance\" tab in the console",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business Finance\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.HomepageTabsSteps.i_should_print_the_number_of_links_under_tab_in_the_console(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tabs"
+          }
+        ]
+      }
+    ],
+    "name": "Verify homepage tabs and their links are working",
+    "description": "",
+    "id": "verify-homepage-tabs-and-their-links-are-working",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/HomePage_FeatureFiles/HomepageTabsLinks.feature",
+    "tags": [
+      {
+        "name": "@tabs",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

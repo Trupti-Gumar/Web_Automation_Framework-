@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"814692f1f52c07eb96c433e117259304","name":"Saving Product card double access","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"c7188535e09b59e6791a1014a810ff94","name":"Saving Product card single access","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

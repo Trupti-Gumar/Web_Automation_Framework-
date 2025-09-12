@@ -1,0 +1,12 @@
+<suite name="Automation Suite" verbose="1">
+    <listeners>
+        <listener class-name="utils.ExtentTestNGListener"/>
+    </listeners>
+    <test name="Regression">
+        <classes>
+<class name="runners.TestRunner"/>
+<!--<class name="runners.TabsFeatureRunner"/>-->
+            
+        </classes>
+    </test>
+</suite>

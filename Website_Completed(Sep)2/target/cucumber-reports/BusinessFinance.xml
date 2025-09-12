@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="70" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="165" time="834.766">
+    <testcase classname="Business finance" name="Verify the Business finance Header" time="4.245">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance option.................................passed
+Then I should see the "Business Finance" as header..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Business finance" name="Verify the Cards present on Business finance page" time="2.572">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance option.................................passed
+Then I should see the "Invoice Finance" present on Business finance page....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Business finance" name="Verify the Cards present on Business finance page 2" time="2.43">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance option.................................passed
+Then I should see the "Asset Finance" present on Business finance page......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Business finance" name="Verify the Cards present on Business finance page 3" time="2.971">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance option.................................passed
+Then I should see the "Commercial Real Estate" present on Business finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Asset Finance header" time="3.004">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see "Asset Finance" on Asset Finance page header...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Unique Selling Points present on Asset Finance page" time="2.801">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Expertise" as USP sub header on Asset Finance page....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Unique Selling Points present on Asset Finance page 2" time="2.802">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Funding" as USP sub header on Asset Finance page......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Unique Selling Points present on Asset Finance page 3" time="2.835">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Service" as USP sub header on Asset Finance page......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Cards present on Asset Finance page" time="15.761">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Construction" Card on Asset Finance page..............passed
+And I should be able to click on  "Construction" card on Asset Finance page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Cards present on Asset Finance page 2" time="15.493">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Transportation" Card on Asset Finance page............passed
+And I should be able to click on  "Transportation" card on Asset Finance page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Cards present on Asset Finance page 3" time="15.361">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Hire Purchase" Card on Asset Finance page.............passed
+And I should be able to click on  "Hire Purchase" card on Asset Finance page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Cards present on Asset Finance page 4" time="15.269">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Leas" Card on Asset Finance page......................passed
+And I should be able to click on  "Leas" card on Asset Finance page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Cards present on Asset Finance page 5" time="15.202">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "Refinance" Card on Asset Finance page.................passed
+And I should be able to click on  "Refinance" card on Asset Finance page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Asset Finance FAQs present on the page" time="15.461">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the Asset Finance FAQs header "Asset Finance FAQs"  on Asset Finance page.passed
+And I should see the Asset Finance FAQs Accordians on the Asset Finance page.passed
+And I should see the more card header "Haven't found what you're looking for?" on Asset Finance FAQs section.passed
+And I should be able to click on View Asset Finance FAQs CTA button and should be redirected to "Frequently Asked Questions: Asset Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Finance" name="Verify the Awards component on Asset Finance page" time="2.871">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see the "And don't just take our word for it..." as header for the Award component on Asset Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset finance FAQs" name="Verify the Asset Finance FAQs present on the page" time="3.015">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(),'I�m an existing Aldermore asset finance customer a')]&quot;}&#10;  (Session info: chrome=118.0.5993.70)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: '4.11.0', revision: '040bc5406b'&#10;System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c503efb5103f609984aa3cf24b44564a, findElement {using=xpath, value=//h3[contains(text(),'I�m an existing Aldermore asset finance customer a')]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c503efb5103f609984aa3cf24b44564a" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance FAQ option................................passed
+Then I should be naviagated to Asset Finance FAQ page.......................passed
+And I should see the Asset Finance FAQs header "Asset Finance - FAQs"  on Asset Finance FAQ page.passed
+And I should see the Asset Finance FAQs Accordians on the Asset Finance FAQ page.failed
+And I should be able to click on Asset Finance CTA button and should be directed to "Asset Finance Solutions for Businesses" page.skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(),'I�m an existing Aldermore asset finance customer a')]"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c503efb5103f609984aa3cf24b44564a, findElement {using=xpath, value=//h3[contains(text(),'I�m an existing Aldermore asset finance customer a')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c503efb5103f609984aa3cf24b44564a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at utils.SeleniumDriver.clickOnElement(SeleniumDriver.java:141)
+	at Business_Finance_Feature_Steps.BusinessFinance_AssetFinanceFAQsSteps.i_should_see_the_asset_finance_fa_qs_accordians_on_the_asset_finance_faq_page(BusinessFinance_AssetFinanceFAQsSteps.java:40)
+	at ✽.I should see the Asset Finance FAQs Accordians on the Asset Finance FAQ page(file:///C:/CMS_Automation/Co.uk_Suchismita_30_April/Website-Test-Automation-Mithun-branch/src/test/resources/BusinessFinance_FeatureFiles/BusinessFinance_AssetFinanceFAQs.feature:16)
+]]></failure>
+    </testcase>
+    <testcase classname="Construction" name="Verify the Masthead component on Construction page" time="4.503">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see "Construction" on Construction page header.................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Construction" name="Verify the Unique Selling Points present on Construction page" time="4.372">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see the "Expertise" as USP sub header on Construction page.....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Construction" name="Verify the Unique Selling Points present on Construction page 2" time="4.51">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see the "Funding" as USP sub header on Construction page.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Construction" name="Verify the Unique Selling Points present on Construction page 3" time="4.58">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see the "Service" as USP sub header on Construction page.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Construction" name="Verify the Video block present on Construction page" time="4.429">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see the "Watch our video" as Video block header on Construction page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Construction" name="Verify the different label present Image Copy Sections" time="4.441">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see the "What we can finance" as a header for Image copy Section on Construction page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Construction" name="Verify the different label present Image Copy Sections 2" time="4.596">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see the "Our finance solutions" as a header for Image copy Section on Construction page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Construction" name="Verify the BDM Card component on Construction page" time="4.575">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Asset Finance option....................................passed
+Then I should be naviagated to Asset Finance page...........................passed
+And I should see Construction card on the page..............................passed
+When I click on Construction card CTA button................................passed
+Then I should redirected to Construction page...............................passed
+And I should see "Jon Burrell" as the BDM Card header on Construction page..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bereavement Guide" name="Verify the Bereavement Guide header" time="2.79">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Bereavement Guide option................................passed
+Then I should be naviagated to Bereavement Guide page.......................passed
+And I should see "Bereavement" on Bereavement Guide page header.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bereavement Guide" name="Verify the different textblock present on the page" time="2.784">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Bereavement Guide option................................passed
+Then I should be naviagated to Bereavement Guide page.......................passed
+And I should see "What to do first" textblock on the Bereavement Guide page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bereavement Guide" name="Verify the different textblock present on the page 2" time="2.72">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Bereavement Guide option................................passed
+Then I should be naviagated to Bereavement Guide page.......................passed
+And I should see "Terms you'll hear" textblock on the Bereavement Guide page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bereavement Guide" name="Verify the different textblock present on the page 3" time="2.747">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Bereavement Guide option................................passed
+Then I should be naviagated to Bereavement Guide page.......................passed
+And I should see "Who else can help" textblock on the Bereavement Guide page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bereavement Guide" name="Verify the Accordian section on the page" time="2.924">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Bereavement Guide option................................passed
+Then I should be naviagated to Bereavement Guide page.......................passed
+And I should see "How to contact us" as accordian header on the Bereavement Guide page.passed
+And I should be able to expand accordian links..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Commercial Real Estate" name="Verify the Commercial Real Estate header" time="2.897">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Commercial Real Estate option...........................passed
+Then I should be naviagated to Commercial Real Estate page..................passed
+And I should see "Commercial Real Estate" on Commercial Real Estate header..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Commercial Real Estate" name="Verify the Cards present on Commercial Real Estate page" time="15.019">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Commercial Real Estate option...........................passed
+Then I should be naviagated to Commercial Real Estate page..................passed
+And I should be able to click on  "Commercial Mortgages" card on Commercial Real Estate page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Commercial Real Estate" name="Verify the Cards present on Commercial Real Estate page 2" time="15.572">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Commercial Real Estate option...........................passed
+Then I should be naviagated to Commercial Real Estate page..................passed
+And I should be able to click on  "Property Development Finance" card on Commercial Real Estate page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Commercial Real Estate" name="Verify the Yellow CTA banner on the page" time="15.147">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Commercial Real Estate option...........................passed
+Then I should be naviagated to Commercial Real Estate page..................passed
+And I should be able to click on Yellow CTA Banner on Commercial Real Estate page and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance - FAQs" name="Verify the Invoice Finance FAQs present on the page" time="15.672">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance FAQ option..............................passed
+Then I should be naviagated to Invoice Finance FAQ page.....................passed
+And I should see the Invoice Finance FAQs header "Invoice Finance - FAQs"  on Invoice Finance FAQ page.passed
+And I should see the Invoice Finance FAQs Accordians on the Invoice Finance FAQ page.passed
+And I should be able to click on Invoice Finance CTA button and should be directed to "Invoice Finance Solutions for Businesses" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the Factoring header" time="4.656">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+And I should see "Factoring" on Factoring page header.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify Masthead black box contents" time="4.629">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+And I should see "Let's get started" as header for the Masthead black box...passed
+And I should see contact number on the Masthead black box...................passed
+And I should see Email us on the Masthead black box.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the different label present Who is it for? option" time="16.792">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+When I click on "First" option on Factoring page............................passed
+Then I should see the "At a glance" as a "First" Image copy header on Factoring page.passed
+And I should be able to click on the Find out more on the Bad debt protection image copy link and redirected to the respective page.passed
+And I should be able to click on the link on the Helping businesses like yours image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the different label present Who is it for? option 2" time="16.768">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+When I click on "Second" option on Factoring page...........................passed
+Then I should see the "Bad debt protection" as a "Second" Image copy header on Factoring page.passed
+And I should be able to click on the Find out more on the Bad debt protection image copy link and redirected to the respective page.passed
+And I should be able to click on the link on the Helping businesses like yours image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the different label present Who is it for? option 3" time="17.167">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+When I click on "Third" option on Factoring page............................passed
+Then I should see the "Helping businesses like yours" as a "Third" Image copy header on Factoring page.passed
+And I should be able to click on the Find out more on the Bad debt protection image copy link and redirected to the respective page.passed
+And I should be able to click on the link on the Helping businesses like yours image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the different label present Documents option" time="4.553">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+And I should see the "Factoring Product Sheet" Cards under Documents option on Fatoring page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the yellow banner present on the page" time="17.437">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+And I should see "Get in touch with our team" present on the yellow banner on Fatoring page.passed
+And I should able to click on the yellow banner and redirected to "Contact Details for Business Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the Invoice finance card present on the page" time="17.786">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+And I should see the invoice finance card and should be able to click on the link.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the Invoice finance FAQ card present on the page" time="16.917">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+And I should see the invoice finance FAQ card and should be able to click on the link.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Factoring" name="Verify the Customer stories card present on the page" time="17.152">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Factoring card on the page.................................passed
+When I click on Factoring card CTA button...................................passed
+Then I should redirected to Factoring page..................................passed
+And I should see the Customer stories card and should be able to click on the link.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify the Invoice Discounting header" time="4.694">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see "Invoice Discounting" on Invoice Discounting page header...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify Masthead black box contents" time="4.469">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see "Let's get started" as header for the Masthead black box...passed
+And I should see contact number on the Masthead black box...................passed
+And I should see Email us on the Masthead black box.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify the different label present Who is it for? option" time="4.414">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see the "At a glance" as a header on Image Section.............passed
+And I should be able to click on the Find out more on the Bad debt protection image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify the different label present Who is it for? option 2" time="4.555">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see the "Bad debt protection" as a header on Image Section.....passed
+And I should be able to click on the Find out more on the Bad debt protection image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify the More card section" time="17.074">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see the more card header "Find out more" on Invoice Discounting FAQs section.passed
+And I should be able to click on View Invoice Finance FAQs CTA button and should be redirected to "Frequently Asked Questions: Invoice Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify the different label present Documents option" time="4.594">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see the "Invoice Discounting Product Sheet" Cards under Documents option.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify the different label present Documents option 2" time="4.424">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see the "Bad Debt Protection Product Sheet" Cards under Documents option.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Discounting" name="Verify the yellow banner present on the page" time="17.502">
+        <failure message="Invalid page expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Invoice Discounting card on the page.......................passed
+When I click on Invoice Discounting card CTA button.........................passed
+Then I should redirected to Invoice Discounting page........................passed
+And I should see "Get in touch with our team" present on the yellow banner..passed
+And I should able to click on the yellow banner abd redirected to "Contact Details for Business Finance" page.failed
+
+StackTrace:
+java.lang.AssertionError: Invalid page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at Business_Finance_Feature_Steps.BusinessFinance_InvoiceFinance_InvoiceDiscountingSteps.i_should_able_to_click_on_the_yellow_banner_abd_redirected_to_page(BusinessFinance_InvoiceFinance_InvoiceDiscountingSteps.java:212)
+	at ✽.I should able to click on the yellow banner abd redirected to "Contact Details for Business Finance" page(file:///C:/CMS_Automation/Co.uk_Suchismita_30_April/Website-Test-Automation-Mithun-branch/src/test/resources/BusinessFinance_FeatureFiles/BusinessFinance_InvoiceFinance_InvoiceDiscounting.feature:73)
+]]></failure>
+    </testcase>
+    <testcase classname="Money Worries" name="Verify the Money Worries header" time="2.758">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Money Worries option....................................passed
+Then I should be naviagated to Money Worries page...........................passed
+And I should see "Cost of living and money worries" on Money Worries page header.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Money Worries" name="Verify the Image Copy sections present on the page" time="2.617">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Money Worries option....................................passed
+Then I should be naviagated to Money Worries page...........................passed
+And I should see the "Customers with money worries" as a "First" Image copy header on Money Worries page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Money Worries" name="Verify the Image Copy sections present on the page 2" time="2.724">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Money Worries option....................................passed
+Then I should be naviagated to Money Worries page...........................passed
+And I should see the "Independent advice" as a "Second" Image copy header on Money Worries page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Money Worries" name="Verify the Image Copy sections present on the page 3" time="3.009">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Money Worries option....................................passed
+Then I should be naviagated to Money Worries page...........................passed
+And I should see the "Bank of England base rate changes" as a "Third" Image copy header on Money Worries page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Money Worries" name="Verify the Image Copy sections present on the page 4" time="2.708">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Money Worries option....................................passed
+Then I should be naviagated to Money Worries page...........................passed
+And I should see the "Being scam savvy" as a "Fourth" Image copy header on Money Worries page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Money Worries" name="Verify the Image copy link pages." time="15.141">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Money Worries option....................................passed
+Then I should be naviagated to Money Worries page...........................passed
+And I should be able to click on the Find out more on the Bank of England base rate changes image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Money Worries" name="Verify the Image copy link pages. 2" time="15.189">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Money Worries option....................................passed
+Then I should be naviagated to Money Worries page...........................passed
+And I should be able to click on the link on the Being scam savvy image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Property Development Finance header" time="8.943">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see "Property Development Finance" on Property Development Finance page header.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Masthead black box present on the page" time="8.851">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see "Contact us" as the header for the Masthead blck box on the page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Unique Selling Points present on Property Development Finance page" time="9.568">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Loans from" as USP sub header on Property Development Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Unique Selling Points present on Property Development Finance page 2" time="8.891">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Maximum of 65% GDV" as USP sub header on Property Development Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Unique Selling Points present on Property Development Finance page 3" time="8.987">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Quick turnaround" as USP sub header on Property Development Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Unique Selling Points present on Property Development Finance page 4" time="8.917">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Flexible terms" as USP sub header on Property Development Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Image Copy Sections on the page" time="8.858">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Commercial Real Estate specialists" as a header for Image copy Section on Property Development Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Image Copy Sections on the page 2" time="9.018">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "VAT loans for house builders and contractors" as a header for Image copy Section on Property Development Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Image Copy Sections on the page 3" time="8.985">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Development finance to suit you" as a header for Image copy Section on Property Development Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Cards present on Property Development Finance page" time="21.323">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Commercial Mortgages" Card on Property Development Finance page.passed
+And I should be able to click on  "Commercial Mortgages" card and redirected to "Commercial Mortgages" pages.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Cards present on Property Development Finance page 2" time="21.59">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Buy to Let Mortgages" Card on Property Development Finance page.passed
+And I should be able to click on  "Buy to Let Mortgages" card and redirected to "Buy to Let" pages.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance" name="Verify the Cards present on Property Development Finance page 3" time="21.53">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property Development Finance option.....................passed
+Then I should be naviagated to Property Development Finance page............passed
+And I should see the "Business Finance" Card on Property Development Finance page.passed
+And I should be able to click on  "Business Finance" card and redirected to "Business Finance" pages.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Property development finance FAQs" name="Verify the Property development Finance FAQs present on the page" time="14.74">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Property development finance FAQ option.................passed
+Then I should be naviagated to Property development finance FAQ page........passed
+And I should see the Property development Finance FAQs header "Property Development Finance - FAQs"  on Property development Finance FAQ page.passed
+And I should see the Property development Finance FAQs Accordians on the Property development Finance FAQ page.passed
+And I should be able to click on Property development Finance CTA button and should be directed to "Property Development Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Invoice Finance header" time="2.966">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see "Invoice Finance" on Invoice Finance page header...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify Masthead black box contents" time="2.887">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see "Get started" as header for the Masthead black box.........passed
+And I should see contact number on the Masthead black box...................passed
+And I should see Email us on the Masthead black box.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Image copy section contents on Invoice Finance page" time="3.161">
+        <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: '4.11.0', revision: '040bc5406b'&#10;System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c503efb5103f609984aa3cf24b44564a, actions {actions=[org.openqa.selenium.interactions.Sequence@1b6e32ee]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c503efb5103f609984aa3cf24b44564a" type="org.openqa.selenium.json.JsonException"><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the Image copy secion on Invoice Finance page..............failed
+And I should see the "Supporting businesses like yours" as the header for the Image copy secion on Invoice Finance page.skipped
+
+StackTrace:
+org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c503efb5103f609984aa3cf24b44564a, actions {actions=[org.openqa.selenium.interactions.Sequence@1b6e32ee]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c503efb5103f609984aa3cf24b44564a
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:415)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:178)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:200)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:200)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:218)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:213)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:332)
+	at org.openqa.selenium.json.Json.toJson(Json.java:47)
+	at org.openqa.selenium.json.Json.toJson(Json.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+	at utils.SeleniumDriver.moveToElement(SeleniumDriver.java:101)
+	at Business_Finance_Feature_Steps.BusniessFinance_InvoiceFinanceSteps.i_should_see_the_image_copy_secion_on_invoice_finance_page(BusniessFinance_InvoiceFinanceSteps.java:91)
+	at ✽.I should see the Image copy secion on Invoice Finance page(file:///C:/CMS_Automation/Co.uk_Suchismita_30_April/Website-Test-Automation-Mithun-branch/src/test/resources/BusinessFinance_FeatureFiles/BusniessFinance_InvoiceFinance.feature:40)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: SeleniumDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:357)
+		at org.openqa.selenium.json.Json.toJson(Json.java:45)
+		at org.openqa.selenium.json.Json.toJson(Json.java:41)
+		at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+		at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+		at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+		at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+		at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+		at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+		at utils.SeleniumDriver.moveToElement(SeleniumDriver.java:101)
+		at Business_Finance_Feature_Steps.BusniessFinance_InvoiceFinanceSteps.i_should_see_the_image_copy_secion_on_invoice_finance_page(BusniessFinance_InvoiceFinanceSteps.java:91)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+		at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+		at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+		at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+		at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+		at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+		at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+		at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+		at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+		at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+		at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+		at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+		at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+		at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+		at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+		at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+		at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+		at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+		at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+		at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+		at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+		at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+		at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+		at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+		at org.testng.TestRunner.privateRun(TestRunner.java:794)
+		at org.testng.TestRunner.run(TestRunner.java:596)
+		at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+		at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+		at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+		at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+		at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+		at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+		at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+		at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+		at org.testng.TestNG.runSuites(TestNG.java:1063)
+		at org.testng.TestNG.run(TestNG.java:1031)
+		at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+		at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+		at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:411)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:178)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:200)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:200)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:218)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:213)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:332)
+	at org.openqa.selenium.json.Json.toJson(Json.java:47)
+	at org.openqa.selenium.json.Json.toJson(Json.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+	at utils.SeleniumDriver.moveToElement(SeleniumDriver.java:101)
+	at Business_Finance_Feature_Steps.BusniessFinance_InvoiceFinanceSteps.i_should_see_the_image_copy_secion_on_invoice_finance_page(BusniessFinance_InvoiceFinanceSteps.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Supporting businesses like yours']"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c503efb5103f609984aa3cf24b44564a, findElement {using=xpath, value=//h2[normalize-space()='Supporting businesses like yours']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c503efb5103f609984aa3cf24b44564a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:275)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:224)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 78 more
+]]></failure>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Unique Selling Points present on Invoice Finance page" time="2.933">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Flexible and transparent" as USP sub header on Invoice Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Unique Selling Points present on Invoice Finance page 2" time="2.975">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Dedicated support" as USP sub header on Invoice Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Unique Selling Points present on Invoice Finance page 3" time="2.903">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Same day payments" as USP sub header on Invoice Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Unique Selling Points present on Invoice Finance page 4" time="3.048">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Online account management" as USP sub header on Invoice Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Image copy section present on Invoice Finance page" time="2.838">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "How does Invoice Finance work?" as Image copy header on Invoice Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Cards present on Invoice Finance page" time="15.766">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Invoice Discounting" Card on Invoice Finance page.....passed
+And I should be able to click on  "Invoice Discounting" card and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Cards present on Invoice Finance page 2" time="15.492">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Factoring" Card on Invoice Finance page...............passed
+And I should be able to click on  "Factoring" card and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Cards present on Invoice Finance page 3" time="14.815">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Asset Based Lending" Card on Invoice Finance page.....passed
+And I should be able to click on  "Asset Based Lending" card and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Cards present on Invoice Finance page 4" time="15.857">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Receivables Finance" Card on Invoice Finance page.....passed
+And I should be able to click on  "Receivables Finance" card and redirected to respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Video Block present on Invoice Finance page" time="3.052">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the "Here's how it works" as Video Block header on Invoice Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the Invoice Financing FAQs present on the page" time="16.108">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the Invoice Financing FAQs header "Invoice Finance FAQs"  on Invoice Finance page.passed
+And I should see the Invoice Financing FAQs Accordians on the Invoice Finance page.passed
+And I should see the more card header "Haven't found what you're looking for?" on Invoice Financing FAQs section.passed
+And I should be able to click on "View Invoice Finance FAQs" CTA button and should be redirected to "Invoice Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invoice Finance" name="Verify the CTA links on Image copy section contents" time="3.375">
+        <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: '4.11.0', revision: '040bc5406b'&#10;System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c503efb5103f609984aa3cf24b44564a, actions {actions=[org.openqa.selenium.interactions.Sequence@3803bc1a]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c503efb5103f609984aa3cf24b44564a" type="org.openqa.selenium.json.JsonException"><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see the Image copy secion on Invoice Finance page..............failed
+And I should be able to click on the Image copy CTA link "Find out how Aldermore supported Didsbury Gin with a flexible Invoice Finance facility" and redirected to "Didsbury Gin - Invoice Finance Case Study" page.skipped
+
+StackTrace:
+org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c503efb5103f609984aa3cf24b44564a, actions {actions=[org.openqa.selenium.interactions.Sequence@3803bc1a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c503efb5103f609984aa3cf24b44564a
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:415)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:178)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:200)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:200)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:218)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:213)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:332)
+	at org.openqa.selenium.json.Json.toJson(Json.java:47)
+	at org.openqa.selenium.json.Json.toJson(Json.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+	at utils.SeleniumDriver.moveToElement(SeleniumDriver.java:101)
+	at Business_Finance_Feature_Steps.BusniessFinance_InvoiceFinanceSteps.i_should_see_the_image_copy_secion_on_invoice_finance_page(BusniessFinance_InvoiceFinanceSteps.java:91)
+	at ✽.I should see the Image copy secion on Invoice Finance page(file:///C:/CMS_Automation/Co.uk_Suchismita_30_April/Website-Test-Automation-Mithun-branch/src/test/resources/BusinessFinance_FeatureFiles/BusniessFinance_InvoiceFinance.feature:113)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: SeleniumDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:357)
+		at org.openqa.selenium.json.Json.toJson(Json.java:45)
+		at org.openqa.selenium.json.Json.toJson(Json.java:41)
+		at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+		at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+		at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+		at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+		at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+		at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+		at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+		at utils.SeleniumDriver.moveToElement(SeleniumDriver.java:101)
+		at Business_Finance_Feature_Steps.BusniessFinance_InvoiceFinanceSteps.i_should_see_the_image_copy_secion_on_invoice_finance_page(BusniessFinance_InvoiceFinanceSteps.java:91)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+		at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+		at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+		at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+		at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+		at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+		at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+		at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+		at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+		at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+		at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+		at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+		at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+		at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+		at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+		at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+		at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+		at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+		at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+		at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+		at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+		at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+		at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+		at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+		at org.testng.TestRunner.privateRun(TestRunner.java:794)
+		at org.testng.TestRunner.run(TestRunner.java:596)
+		at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+		at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+		at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+		at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+		at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+		at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+		at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+		at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+		at org.testng.TestNG.runSuites(TestNG.java:1063)
+		at org.testng.TestNG.run(TestNG.java:1031)
+		at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+		at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+		at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:411)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:178)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:200)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:200)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:218)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:213)
+	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:341)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:332)
+	at org.openqa.selenium.json.Json.toJson(Json.java:47)
+	at org.openqa.selenium.json.Json.toJson(Json.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:273)
+	at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:127)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:605)
+	at utils.SeleniumDriver.moveToElement(SeleniumDriver.java:101)
+	at Business_Finance_Feature_Steps.BusniessFinance_InvoiceFinanceSteps.i_should_see_the_image_copy_secion_on_invoice_finance_page(BusniessFinance_InvoiceFinanceSteps.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='Supporting businesses like yours']"}
+  (Session info: chrome=118.0.5993.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c503efb5103f609984aa3cf24b44564a, findElement {using=xpath, value=//h2[normalize-space()='Supporting businesses like yours']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\MITHUN~1.HN\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51028/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c503efb5103f609984aa3cf24b44564a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:275)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:224)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 78 more
+]]></failure>
+    </testcase>
+    <testcase classname="Asset Based Lending" name="Verify the Asset Based Lending header" time="4.813">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Asset Based Lending card on the page.......................passed
+When I click on Asset Based Lending card CTA button.........................passed
+Then I should redirected to Asset Based Lending page........................passed
+And I should see "Asset Based Lending" on Asset Based Lending page header...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Based Lending" name="Verify Masthead black box contents" time="4.53">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Asset Based Lending card on the page.......................passed
+When I click on Asset Based Lending card CTA button.........................passed
+Then I should redirected to Asset Based Lending page........................passed
+And I should see "Let's get started" as header for the Masthead black box...passed
+And I should see contact number on the Masthead black box...................passed
+And I should see Email us on the Masthead black box.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Based Lending" name="Verify the Video block present on Asset Based Lending page" time="4.633">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Asset Based Lending card on the page.......................passed
+When I click on Asset Based Lending card CTA button.........................passed
+Then I should redirected to Asset Based Lending page........................passed
+And I should see the "How Asset Based Lending could help your business" as Video block header on Asset Based Lending page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Based Lending" name="Verify the different label present Image Copy Sections" time="4.802">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Asset Based Lending card on the page.......................passed
+When I click on Asset Based Lending card CTA button.........................passed
+Then I should redirected to Asset Based Lending page........................passed
+And I should see the "At a glance" as a header for Image copy Section on Asset Based Lending page.passed
+And I should be able to click on the Find out more on the Bad debt protection image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Based Lending" name="Verify the different label present Image Copy Sections 2" time="4.638">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Asset Based Lending card on the page.......................passed
+When I click on Asset Based Lending card CTA button.........................passed
+Then I should redirected to Asset Based Lending page........................passed
+And I should see the "Bad debt protection" as a header for Image copy Section on Asset Based Lending page.passed
+And I should be able to click on the Find out more on the Bad debt protection image copy link and redirected to the respective page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Based Lending" name="Verify the different label present Documents option" time="5.016">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Asset Based Lending card on the page.......................passed
+When I click on Asset Based Lending card CTA button.........................passed
+Then I should redirected to Asset Based Lending page........................passed
+And I should see the "Asset Based Lending Product Sheet" Cards under Documents option on Asset Based Lending page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Asset Based Lending" name="Verify the yellow banner present on the page" time="17.113">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Asset Based Lending card on the page.......................passed
+When I click on Asset Based Lending card CTA button.........................passed
+Then I should redirected to Asset Based Lending page........................passed
+And I should see "Get in touch with our team" CTA banner on the Asset Based Lending page.passed
+And I should able to click on the yellow CTA banner abd redirected to "Contact Details for Business Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Receivables Finance" name="Verify the Receivables Finance header" time="4.504">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Receivables Finance card on the page.......................passed
+When I click on Receivables Finance card CTA button.........................passed
+Then I should redirected to Receivables Finance page........................passed
+And I should see "Receivables Finance" on Receivables Finance page header...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Receivables Finance" name="Verify Masthead black box contents" time="4.345">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Receivables Finance card on the page.......................passed
+When I click on Receivables Finance card CTA button.........................passed
+Then I should redirected to Receivables Finance page........................passed
+And I should see "Let's get started" as header for the Masthead black box...passed
+And I should see contact number on the Masthead black box...................passed
+And I should see Email us on the Masthead black box.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Receivables Finance" name="Verify the Image Copy Sections" time="4.732">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Receivables Finance card on the page.......................passed
+When I click on Receivables Finance card CTA button.........................passed
+Then I should redirected to Receivables Finance page........................passed
+And I should see the "At a glance" as a header for Image copy Section on Receivables Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Receivables Finance" name="Verify the different label present Documents option" time="4.471">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Receivables Finance card on the page.......................passed
+When I click on Receivables Finance card CTA button.........................passed
+Then I should redirected to Receivables Finance page........................passed
+And I should see the "Receivables Finance Product Sheet" Cards under Documents option on Receivables Finance page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Receivables Finance" name="Verify the yellow banner present on the page" time="17.317">
+        <system-out><![CDATA[Given I am landed on Aldermore page.........................................passed
+When I click on the Business finance dropdown option........................passed
+Then I should see the Business finance options..............................passed
+When I click on the Invoice Finance option..................................passed
+Then I should be naviagated to Invoice Finance page.........................passed
+And I should see Receivables Finance card on the page.......................passed
+When I click on Receivables Finance card CTA button.........................passed
+Then I should redirected to Receivables Finance page........................passed
+And I should see "Get in touch with our team" CTA banner on the Receivables Finance page.passed
+And I should able to click on the yellow CTA banner abd redirected to "Contact Details for Business Finance" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Help page Header" time="0.016">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see the "Business savings help and support" as the header for the Business Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Popular questions present on the page." time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "How do I pay money into my Business Savings Account?" Popular Question on the Business Savings Help page.skipped
+And I should be able to click on this "How do I pay money into my Business Savings Account?" Popular Question link and redirected to the "How do I pay money into my Business Savings Account?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Popular questions present on the page. 2" time="0.013">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "What happens when my Fixed Rate account matures?" Popular Question on the Business Savings Help page.skipped
+And I should be able to click on this "What happens when my Fixed Rate account matures?" Popular Question link and redirected to the "What happens when my Fixed Rate savings account matures?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Popular questions present on the page. 3" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "What do I do if I've forgotten my password or username?" Popular Question on the Business Savings Help page.skipped
+And I should be able to click on this "What do I do if I've forgotten my password or username?" Popular Question link and redirected to the "What do I do if I've forgotten my password or username?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Popular questions present on the page. 4" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "How do I withdraw money from my Business Savings Account?" Popular Question on the Business Savings Help page.skipped
+And I should be able to click on this "How do I withdraw money from my Business Savings Account?" Popular Question link and redirected to the "How do I withdraw money from my Business Savings Account?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Popular questions present on the page. 5" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "How do I set up additional users on my account?" Popular Question on the Business Savings Help page.skipped
+And I should be able to click on this "How do I set up additional users on my account?" Popular Question link and redirected to the "How do I set up multiple users on my Business Savings Account?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Popular questions present on the page. 6" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "What is a significant owner?" Popular Question on the Business Savings Help page.skipped
+And I should be able to click on this "What is a significant owner?" Popular Question link and redirected to the "What's a controlling person or a significant owner?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the card present on the page." time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "Applications" card on the Business Savings Help page.skipped
+And I should be able to click on the "Applications" cardlink and redirected to the respective "Applications - Business Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the card present on the page. 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "Transfers and paying money in" card on the Business Savings Help page.skipped
+And I should be able to click on the "Transfers and paying money in" cardlink and redirected to the respective "Transfers & Paying In - Business Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the card present on the page. 3" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "Internet banking" card on the Business Savings Help page.skipped
+And I should be able to click on the "Internet banking" cardlink and redirected to the respective "Internet Banking - Business Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the card present on the page. 4" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "Withdrawing money" card on the Business Savings Help page.skipped
+And I should be able to click on the "Withdrawing money" cardlink and redirected to the respective "Withdrawing Money - Business Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the card present on the page. 5" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "Maturity" card on the Business Savings Help page....skipped
+And I should be able to click on the "Maturity" cardlink and redirected to the respective "Maturity - Business Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the card present on the page. 6" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "Closing your account" card on the Business Savings Help page.skipped
+And I should be able to click on the "Closing your account" cardlink and redirected to the respective "Closing an Account - Business Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the card present on the page. 7" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+Then I should see this "Security" card on the Business Savings Help page....skipped
+And I should be able to click on the "Security" cardlink and redirected to the respective "Security - Business Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Forgotten password reset button redirect to the page." time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+And I should be able to click on the Forgotten password reset button and redirected to the "Aldermore - Business Savings Customer Portal (dev)" respective page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Masthead black box present on the page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+And I should see the "Quick links" as the header for the Masthead black box on the Business Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Masthead black box links present on the page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+And I should be able to click on the "Forms and documents" link present on the Business Savings Help page and redirected to the respective "Business savings forms and documents - Aldermore bank" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Business Savings Help Page" name="Verify the Masthead black box links present on the page 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on this Aldermore home page......................................undefined
+When I navigate in to the Help page.........................................skipped
+And I navigate to Business Savings Help page................................skipped
+And I should be able to click on the "Internet banking log in" link present on the Business Savings Help page and redirected to the respective "Log in" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Business finance customers" name="Verify the Business finance customers header" time="0.007">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then See the "Business finance customers" CTA button........................skipped
+When clicked CTA card button................................................skipped
+Then naviagated to respective "Contact information for Business finance customers" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Business finance customers" name="Verify &quot;Business Finance contact information&quot; present under page" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Business finance customers page..........................skipped
+And I should see "Business Finance contact information" under the page......skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Business finance customers" name="Verify Business Finance contact information expands otpions" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Business finance customers page..........................skipped
+And I should be click on Business Finance contact information accordian and it should expand.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the Intermediaries header" time="0.006">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then "Intermediaries" CTA button............................................skipped
+When Clicked button.........................................................skipped
+Then respective "Contact information for intermediaries" displayed..........skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the Cards header in Intermediaries Page" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+Then I "Residential and Buy to Let mortgages" on the page...................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the Cards header in Intermediaries Page 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+Then I "Invoice finance" on the page........................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the Cards header in Intermediaries Page 3" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+Then I "Asset finance" on the page..........................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the Cards header in Intermediaries Page 4" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+Then I "Commercial mortgages" on the page...................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the Cards header in Intermediaries Page 5" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+Then I "Property development finance" on the page...........................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the PageTitle for the Card" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+When I will click "Residential and Buy to Let mortgages" and redirected to "Contact us - residential and buy to let mortgages".skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the PageTitle for the Card 2" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+When I will click "Invoice finance" and redirected to "Contact us - Invoice Finance".skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the PageTitle for the Card 3" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+When I will click "Asset finance" and redirected to "Contact us - Asset Finance".skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the PageTitle for the Card 4" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+When I will click "Commercial mortgages" and redirected to "Contact us - Commercial Mortgages".skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Intermediaries" name="Verify the PageTitle for the Card 5" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On Aldermore page.....................................................undefined
+Then I navigate to ContactUs page under Help and Support option.............skipped
+Then I navigate to Intermediaries Page......................................skipped
+When I will click "Property development finance" and redirected to "Contact us - Property Development Finance".skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Mortgage customers" name="Verify the Mortgage customers header" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On this Aldermore Home page...........................................undefined
+Then I navigate to Contact Us page under Help and Support option............skipped
+Then See this "Mortgages" CTA button........................................skipped
+When clicked on the CTA card button.........................................skipped
+Then navigate to respective "Contact information for mortgage customers" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Mortgage customers" name="Verify &quot;Residential and buy to let mortgage customers&quot; present under page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On this Aldermore Home page...........................................undefined
+Then I navigate to Contact Us page under Help and Support option............skipped
+Then I navigate to Mortgage customers page..................................skipped
+And I should see this "Residential and buy to let mortgage customers" under the page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Mortgage customers" name="Verify Contact information for Mortgage customers expands options" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On this Aldermore Home page...........................................undefined
+Then I navigate to Contact Us page under Help and Support option............skipped
+Then I navigate to Mortgage customers page..................................skipped
+And I should be click on Contact information for mortgage customers accordian and it should expand.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Savings customers" name="Verify the Savings customers header" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On the Aldermore Home page............................................undefined
+Then I navigate to the ContactUs page under Help and Support option.........skipped
+Then See the "Savings" CTA button...........................................skipped
+When clicked the CTA card button............................................skipped
+Then navigated to respective "Contact information for savings customers" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Savings customers" name="Verify &quot;Contact information for savings customers&quot; present under page" time="0.007">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On the Aldermore Home page............................................undefined
+Then I navigate to the ContactUs page under Help and Support option.........skipped
+Then I navigate to Savings customers page...................................skipped
+And I should see the "Contact information for savings customers" under the page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Savings customers" name="Verify Contact information for savings customers expands options" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given On the Aldermore Home page............................................undefined
+Then I navigate to the ContactUs page under Help and Support option.........skipped
+Then I navigate to Savings customers page...................................skipped
+And I should be click on Contact information for savings customers accordian and it should expand.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Help page Header" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see the "Personal savings help and support" as the header for the Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Frequently asked questions present on the page." time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Will my savings be covered by the FSCS?" Frequent Question on the Personal Savings Help page.skipped
+And I should be able to click on this "Will my savings be covered by the FSCS?" Frequent Question link and redirected to the "Financial Services Compensation Scheme" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Frequently asked questions present on the page. 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "How do I pay money into my account?" Frequent Question on the Personal Savings Help page.skipped
+And I should be able to click on this "How do I pay money into my account?" Frequent Question link and redirected to the "What sort code and account reference will I need to deposit?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Frequently asked questions present on the page. 3" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "How do I log in?" Frequent Question on the Personal Savings Help page.skipped
+And I should be able to click on this "How do I log in?" Frequent Question link and redirected to the "How do I log in to my online account? - Internet Banking" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Frequently asked questions present on the page. 4" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "How do I withdraw money from my account?" Frequent Question on the Personal Savings Help page.skipped
+And I should be able to click on this "How do I withdraw money from my account?" Frequent Question link and redirected to the "Withdrawing Money - Personal Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Frequently asked questions present on the page. 5" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "What happens at maturity of my Fixed Rate Account?" Frequent Question on the Personal Savings Help page.skipped
+And I should be able to click on this "What happens at maturity of my Fixed Rate Account?" Frequent Question link and redirected to the "What happens at maturity of my fixed rate account?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Frequently asked questions present on the page. 6" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "What does the base rate change mean for my interest rate?" Frequent Question on the Personal Savings Help page.skipped
+And I should be able to click on this "What does the base rate change mean for my interest rate?" Frequent Question link and redirected to the "Bank of England Base Rate Changes" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Frequently asked questions present on the page. 7" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "What is a personal savings allowance?" Frequent Question on the Personal Savings Help page.skipped
+And I should be able to click on this "What is a personal savings allowance?" Frequent Question link and redirected to the "ISA: What is the personal savings allowance?" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the card present on the page." time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Safer savings" card on the Personal Savings Help page.skipped
+And I should be able to click on this "Safer savings" cardlink and redirected to the respective "Safer Savings - How We Protect You" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the card present on the page. 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Opening an account and paying money in" card on the Personal Savings Help page.skipped
+And I should be able to click on this "Opening an account and paying money in" cardlink and redirected to the respective "Account Opening and Depositing Funds FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the card present on the page. 3" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Using online banking" card on the Personal Savings Help page.skipped
+And I should be able to click on this "Using online banking" cardlink and redirected to the respective "Internet Banking - Personal Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the card present on the page. 4" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Statements and balances" card on the Personal Savings Help page.skipped
+And I should be able to click on this "Statements and balances" cardlink and redirected to the respective "Statements & Balances - Personal Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the card present on the page. 5" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Account maturities and transfers" card on the Personal Savings Help page.skipped
+And I should be able to click on this "Account maturities and transfers" cardlink and redirected to the respective "Account maturities and transfers FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the card present on the page. 6" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Withdrawing money and closing your account" card on the Personal Savings Help page.skipped
+And I should be able to click on this "Withdrawing money and closing your account" cardlink and redirected to the respective "Withdrawing Money - Personal Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the card present on the page. 7" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "ISA help" card on the Personal Savings Help page....skipped
+And I should be able to click on this "ISA help" cardlink and redirected to the respective "ISA help - Personal Savings FAQs" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Image copy section contents on the page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see the "FSCS Protection" as the header for the Image copy section on Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Image copy section contents on the page 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see the "What to do when someone dies" as the header for the Image copy section on Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Image Copy section redirect to the page." time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+And I should see "Find out more about FSCS Protection" the image copy link on the Personal Savings Help page.skipped
+And I should be able to click on this "Find out more about FSCS Protection" image copy link and redirected to the "Financial Services Compensation Scheme" respective page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Image Copy section redirect to the page. 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+And I should see "Bereavement guide" the image copy link on the Personal Savings Help page.skipped
+And I should be able to click on this "Bereavement guide" image copy link and redirected to the "Bereavement Guide - Personal Savings" respective page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the contact card present on the Personal Savings Help page." time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Call us" contact card on the Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the contact card present on the Personal Savings Help page. 2" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Email us" contact card on the Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the contact card present on the Personal Savings Help page. 3" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Message us" contact card on the Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the contact card present on the Personal Savings Help page. 4" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Opening hours" contact card on the Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the contact card present on the Personal Savings Help page. 5" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+Then I should see this "Contact us by post" contact card on the Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Masthead black box present on the page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+And I should see the "Useful links" as the header for the Masthead black box on the Personal Savings Help page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Masthead black box links present on the page" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+And I should be able to click on the "Forms and documents" link present on the Personal Savings Help page and redirected to the respective "Forms & Documents - Personal Savings" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Masthead black box links present on the page 2" time="0.002">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+And I should be able to click on the "Bereavement guide" link present on the Personal Savings Help page and redirected to the respective "Bereavement Guide - Personal Savings" page.skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Help_Personal Savings Help Page" name="Verify the Masthead black box links present on the page 3" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am on Aldermore home page...........................................undefined
+When I navigate to the Help page............................................skipped
+And I navigate to Personal Savings Help page................................skipped
+And I should be able to click on the "Financial Services Compensation Scheme" link present on the Personal Savings Help page and redirected to the respective "Financial Services Compensation Scheme" page.skipped
+]]></failure>
+    </testcase>
+</testsuite>

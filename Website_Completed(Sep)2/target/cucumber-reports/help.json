@@ -1,0 +1,419 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1204979400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Aldermore home page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotoNovoFinance_Steps.i_am_on_aldermore_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan class\u003d\"navigation-menu__dropdown-header__span\"\u003e...\u003c/span\u003e is not clickable at point (654, 121). Other element would receive the click: \u003cdiv class\u003d\"onetrust-pc-dark-filter ot-fade-in\" style\u003d\"z-index:2147483645;\"\u003e\u003c/div\u003e\n  (Session info: chrome\u003d118.0.5993.70)\nBuild info: version: \u00274.11.0\u0027, revision: \u0027040bc5406b\u0027\nSystem info: os.name: \u0027Windows Server 2019\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002720.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f05fdbd7d702c21126ec7b68d14cf2f, clickElement {id\u003dA366EC511A0DD10AA093D182D2E384E8_element_18}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\TRUPTI~1.GUM\\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53218/devtoo..., se:cdpVersion: 118.0.5993.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (9f05fdbd7d702c21126ec7b68d14cf2f)] -\u003e xpath: //span[normalize-space()\u003d\u0027Motor finance\u0027]]\nSession ID: 9f05fdbd7d702c21126ec7b68d14cf2f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)\r\n\tat utils.SeleniumDriver.clickOnElement(SeleniumDriver.java:141)\r\n\tat MotorFinance_Feature_Steps.MotoNovoFinance_Steps.I_navigate_to_MotoNovo_Finance_page(MotoNovoFinance_Steps.java:39)\r\n\tat ✽.I navigate to MotoNovo Finance page(file:///G:/TRG/Website-Test-Automation-couk_Automation_Handover/Website-Test-Automation-couk_Automation_Handover/src/test/resources/MotorFinance_FeatureFiles/Motorfinance_MotoNovoFinance.feature:7)\r\n",
+              "duration": 1281255200,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I navigate to MotoNovo Finance page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotoNovoFinance_Steps.I_navigate_to_MotoNovo_Finance_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-24T20:10:05.244Z",
+        "line": 14,
+        "name": "Verify the MotoNovo Finance page header",
+        "description": "",
+        "id": "motonovo-finance-page;verify-the-motonovo-finance-page-header;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I should be able to click on the \"Motonovo Finance\" link present on the MotoNovo Finance page and redirected to the \"MotoNovo Finance\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motonovo Finance\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"MotoNovo Finance\"",
+                  "offset": 116
+                }
+              ],
+              "location": "MotorFinance_Feature_Steps.MotoNovoFinance_Steps.i_should_be_able_to_click_on_the_link_present_on_the_MotoNovo_Finance_page_and_redirected_to_the_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MotoNovoFinance"
+          }
+        ]
+      }
+    ],
+    "name": "MotoNovo Finance Page",
+    "description": "I want to verify the components in this page.",
+    "id": "motonovo-finance-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/MotorFinance_FeatureFiles/Motorfinance_MotoNovoFinance.feature",
+    "tags": [
+      {
+        "name": "@MotoNovoFinance",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 945433400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Aldermore home page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinance_Steps.i_am_on_the_aldermore_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1012434600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Motor Finance page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinance_Steps.I_navigate_to_Motor_Finance_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-24T20:10:07.831Z",
+        "line": 14,
+        "name": "Verify the Motor Finance page header",
+        "description": "",
+        "id": "motor-finance-page;verify-the-motor-finance-page-header;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6367374500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to click on the \"Motor Finance\" link present on the Motor Finance page and redirected to the \"Driving forward through innovation and change - MotoNovo Finance\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Driving forward through innovation and change - MotoNovo Finance\"",
+                  "offset": 110
+                }
+              ],
+              "location": "MotorFinance_Feature_Steps.MotorFinance_Steps.i_should_be_able_to_click_on_the_link_present_on_the_Motor_Finance_page_and_redirected_to_the_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MotorFinance"
+          }
+        ]
+      }
+    ],
+    "name": "Motor Finance Page",
+    "description": "I want to verify the components in this page.",
+    "id": "motor-finance-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/MotorFinance_FeatureFiles/Motorfinance_MotorFinance.feature",
+    "tags": [
+      {
+        "name": "@MotorFinance",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1211180800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on a Aldermore home page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.i_am_on_a_aldermore_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1228615200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Motor Finance By MotoNovo page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.I_navigate_to_Motor_Finance_By_MotoNovo_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-24T20:10:16.196Z",
+        "line": 15,
+        "name": "Verify the Motor Finance By MotoNovo page header",
+        "description": "",
+        "id": "motor-finance-by-motonovo-page;verify-the-motor-finance-by-motonovo-page-header;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 125998800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the \"Motor Finance by MotoNovo\" as the header for the Motor Finance By MotoNovo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Motor Finance by MotoNovo\"",
+                  "offset": 17
+                }
+              ],
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.i_should_see_the_as_the_header_for_the_Motor_Finance_By_MotoNovo_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MotorFinancebyMotoNovo"
+          },
+          {
+            "name": "@Masthead_Medium"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1017835700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on a Aldermore home page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.i_am_on_a_aldermore_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1053307700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Motor Finance By MotoNovo page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.I_navigate_to_Motor_Finance_By_MotoNovo_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-24T20:10:18.774Z",
+        "line": 23,
+        "name": "Verify the Masthead black box present on the page",
+        "description": "",
+        "id": "motor-finance-by-motonovo-page;verify-the-masthead-black-box-present-on-the-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65999300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see the \"MotoNovo Finance\" as the header for the Masthead black box on the Motor Finance By MotoNovo page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MotoNovo Finance\"",
+                  "offset": 17
+                }
+              ],
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.i_should_see_the_as_the_header_for_the_masthead_black_box_on_the_Motor_Finance_By_MotoNovo_page(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MotorFinancebyMotoNovo"
+          },
+          {
+            "name": "@Masthead_Blackbox"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 958170200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on a Aldermore home page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.i_am_on_a_aldermore_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1199801900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to Motor Finance By MotoNovo page",
+            "match": {
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.I_navigate_to_Motor_Finance_By_MotoNovo_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-24T20:10:20.923Z",
+        "line": 32,
+        "name": "Verify the Masthead black box links present on the page",
+        "description": "",
+        "id": "motor-finance-by-motonovo-page;verify-the-masthead-black-box-links-present-on-the-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5516672700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be able to click on the \"Visit website\" link present on the Motor Finance By MotoNovo page and redirected to the \"Driving forward through innovation and change - MotoNovo Finance\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visit website\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Driving forward through innovation and change - MotoNovo Finance\"",
+                  "offset": 122
+                }
+              ],
+              "location": "MotorFinance_Feature_Steps.MotorFinancebyMotoNovo_Steps.i_should_be_able_to_click_on_the_link_present_on_the_Motor_Finance_By_MotoNovo_page_and_redirected_to_the_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MotorFinancebyMotoNovo"
+          },
+          {
+            "name": "@Masthead_Blackbox_Links"
+          }
+        ]
+      }
+    ],
+    "name": "Motor Finance By MotoNovo Page",
+    "description": "I want to verify the components in this page.",
+    "id": "motor-finance-by-motonovo-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/MotorFinance_FeatureFiles/Motorfinance_MotorFinancebyMotoNovo.feature",
+    "tags": [
+      {
+        "name": "@MotorFinancebyMotoNovo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

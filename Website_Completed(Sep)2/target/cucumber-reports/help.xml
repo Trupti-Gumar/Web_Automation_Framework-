@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="183.738">
+    <testcase classname="Help page" name="Verify the Help page Header" time="4.028">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see the "Help and support" as the header for the Help page....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page." time="1.935">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Personal savings help" card on the Help page........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page. 2" time="1.987">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Business savings help" card on the Help page........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page. 3" time="1.927">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Mortgages help" card on the Help page...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page. 4" time="1.948">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Business finance help" card on the Help page........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page. 5" time="1.869">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Complaints" card on the Help page...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page. 6" time="1.836">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Support tailored to you" card on the Help page......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page. 7" time="1.976">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Bereavement" card on the Help page..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the card present on the page. 8" time="1.846">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see this "Money worries" card on the Help page................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page." time="13.825">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Personal savings help" cardlink and redirected to the "Help & Support for Personal Savings Customers" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page. 2" time="13.846">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Business savings help" cardlink and redirected to the "Help & Support for Business Savings Customers" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page. 3" time="13.788">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Mortgages help" cardlink and redirected to the "Mortgages Help & Support" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page. 4" time="13.847">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Business finance help" cardlink and redirected to the "Business Finance Solutions" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page. 5" time="13.781">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Complaints" cardlink and redirected to the "Our Complaint Process" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page. 6" time="14.108">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Support tailored to you" cardlink and redirected to the "Tailored Support - How We Can Help You" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page. 7" time="14.038">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Bereavement" cardlink and redirected to the "Bereavement Guide" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the cardlink redirect to the page. 8" time="13.746">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on this "Money worries" cardlink and redirected to the "Money Worries and the Cost of Living Crisis" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the Image copy section contents on the page" time="1.903">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see the "Protecting yourself from fraud" as the header for the Image copy section.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the Image copy section contents on the page 2" time="1.906">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see the "Bank of England base rate changes" as the header for the Image copy section.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the Image copy section contents on the page 3" time="1.953">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+Then I should see the "Our purpose" as the header for the Image copy section.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the Image Copy section redirect to the page." time="13.806">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should see "Online security and protecting yourself from fraud" the image copy link on the page.passed
+And I should be able to click on this "Online security and protecting yourself from fraud" image copy link and redirected to the "Online Security and Fraud Protection" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the Image Copy section redirect to the page. 2" time="13.98">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should see "Find out more" the image copy link on the page............passed
+And I should be able to click on this "Find out more" image copy link and redirected to the "Bank of England Base Rate Changes" page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the Masthead black box present on the page" time="2.012">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should see the "Get in touch" as the header for the Masthead black box on the Help page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Help page" name="Verify the Masthead black box links present on the page" time="13.785">
+        <system-out><![CDATA[Given I am on a Aldermore home page.........................................passed
+When I navigate to Help page................................................passed
+And I should be able to click on the "Contact us" link present on the Help page and redirected to the "Contact Information - How to Contact Us" page.passed
+]]></system-out>
+    </testcase>
+</testsuite>
