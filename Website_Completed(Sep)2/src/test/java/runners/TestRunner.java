@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions;
 import utils.SeleniumDriver;
 
 @CucumberOptions(features = { "src/test/resources/HomePage_FeatureFiles/" }, glue = {
-		"steps","HomePage_Steps" }, monochrome = true, plugin = { "html:target/cucumber-html-report/cucumber.html",
+		"steps","HomePage_Steps" },tags="@AldermoreHomePage",  monochrome = true, plugin = { "html:target/cucumber-html-report/cucumber.html",
 				"json:target/cucumber-reports/cucumber.json", "junit:target/cucumber-reports/cucumber.xml",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "pretty",
 				/*"io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"*/ })

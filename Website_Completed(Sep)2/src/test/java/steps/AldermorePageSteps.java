@@ -1,11 +1,13 @@
 package steps;
 
 import static org.testng.Assert.assertEquals;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.actions.AldermorePageActions;
+import utils.ExtentTestNGListener.ReportUtil;
 import utils.SeleniumDriver;
 
 public class AldermorePageSteps {
@@ -30,9 +32,10 @@ public class AldermorePageSteps {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
+		ReportUtil.logStepWithScreenshot("I am on Aldermore home page");
 		
 	}
-
+	
 	@When("I view the Masthead Homepage section")
 	public void i_view_the_masthead_homepage_section() {
 
@@ -43,6 +46,7 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getmastheadHomepageHeaderText();
 		String Expectedtext = header;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("I should see the "+header+" as header for the Masthead homepage");
 	}
 
 	@And("Description should be displayed on the page")
@@ -51,6 +55,7 @@ public class AldermorePageSteps {
 		boolean actualResult = aldermorePageActions.getmastheadHomepageDescriptionElement().isDisplayed();
 		boolean expectedResult = true;
 		assertEquals(actualResult, expectedResult, "Element not present on the page");
+		ReportUtil.logStepWithScreenshot("Description should be displayed on the page");
 	}
 
 	@And("Scroll Down button should be displayed on the page")
@@ -59,6 +64,7 @@ public class AldermorePageSteps {
 		boolean actualResult = aldermorePageActions.getmastheadHomepageScrollDownElement().isDisplayed();
 		boolean expectedResult = true;
 		assertEquals(actualResult, expectedResult, "Element not present on the page");
+		ReportUtil.logStepWithScreenshot("Scroll Down button should be displayed on the page");
 	}
 
 	@When("I view the Unique Selling Point Section")
@@ -71,31 +77,36 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getuniqueSellingPointHeaderText();
 		String Expectedtext = header;
 		assertEquals(ActualText, Expectedtext);
+			ReportUtil.logStepWithScreenshot("I Should see the "+header+" as section header");
 	}
 
 	@Then("I should see the {string} as sub header")
 	public void i_should_see_the_as_sub_header(String subHeader) {
 		String ActualText;
 		String Expectedtext;
-
+		ReportUtil.logStepWithScreenshot("I Should see the  as section header");
 		switch (subHeader) {
 		case "Promoting inclusivity":
 			ActualText = aldermorePageActions.getUniqueSellingpointPromotinginclusivitySubHeaderText();
 			Expectedtext = subHeader;
-
+			ReportUtil.logStepWithScreenshot("I Should see the  as section header");
 			break;
 		case "Distinctly human":
 			ActualText = aldermorePageActions.getUniqueSellingpointDistinctivelyhumanSubHeaderText();
 			Expectedtext = subHeader;
+			ReportUtil.logStepWithScreenshot("I Should see the  as section header");
 			break;
 		case "Enabling ambition":
 			ActualText = aldermorePageActions.getUniqueSellingpointEnablingambitionSubHeaderText();
 			Expectedtext = subHeader;
+			ReportUtil.logStepWithScreenshot("I Should see the  as section header");
 			break;
 
 		default:
 			throw new IllegalArgumentException("Invalid value: " + subHeader);
+			
 		}
+		
 		// aldermorePageActions.moveToButtonElement();
 		assertEquals(ActualText, Expectedtext);
 	}
@@ -124,6 +135,7 @@ public class AldermorePageSteps {
 	@When("I navigate to the Savings block")
 	public void i_navigate_to_the_savings_block() {
 		aldermorePageActions.moveToSavingsBlock();
+		ReportUtil.logStepWithScreenshot("I Should see Savings Block");
 	}
 
 	@Then("I should see the Savings Block Header {string} displayed")
@@ -131,6 +143,7 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getSavingsBlockHeaderText();
 		String Expectedtext = header;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("I should see the Savings Block Header {string} displayed");
 	}
 
 	@And("the Savings button {string} should be present")
@@ -138,11 +151,13 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getSavingsBlockButtonText();
 		String Expectedtext = button;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("the Savings button {string} should be present");
 	}
 
 	@When("I click on the Savings button")
 	public void i_click_on_the_savings_button() {
 		aldermorePageActions.clickOnSavingsBlockButton();
+		ReportUtil.logStepWithScreenshot("I click on the Savings button");
 	}
 
 	@Then("I should be redirected to the savings account page")
@@ -150,11 +165,13 @@ public class AldermorePageSteps {
 		String ActualTitle = SeleniumDriver.getDriver().getTitle();
 		String ExpectedTitle = "Savings Accounts for Individuals & Businesses | Aldermore Bank";
 		assertEquals(ActualTitle, ExpectedTitle);
+		ReportUtil.logStepWithScreenshot("I should be redirected to the savings account page");
 	}
 
 	@When("I navigate to the Mortgages block")
 	public void i_navigate_to_the_mortgages_block() {
 		aldermorePageActions.moveToMortgageBlock();
+		ReportUtil.logStepWithScreenshot("I should be redirected to the savings account pagI navigate to the Mortgages block");
 	}
 
 	@Then("I should see the Mortgages Block Header {string} displayed")
@@ -162,6 +179,7 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getMortgagesBlockHeaderText();
 		String Expectedtext = header;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("I should see the Mortgages Block Header {string} displayed");
 	}
 
 	@And("the Mortgages button {string} should be present")
@@ -169,11 +187,13 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getMortgagesBlockButtonText();
 		String Expectedtext = button;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("the Mortgages button {string} should be present");
 	}
 
 	@When("I click on the Mortgages button")
 	public void i_click_on_the_mortgages_button() {
 		aldermorePageActions.clickOnMortgagesBlockButton();
+		ReportUtil.logStepWithScreenshot("I click on the Mortgages button");
 	}
 
 	@Then("I should be redirected to the Mortgages page")
@@ -181,11 +201,13 @@ public class AldermorePageSteps {
 		String ActualTitle = SeleniumDriver.getDriver().getTitle();
 		String ExpectedTitle = "Specialist Mortgage Lender | Aldermore Bank";
 		assertEquals(ActualTitle, ExpectedTitle);
+		ReportUtil.logStepWithScreenshot("I should be redirected to the Mortgages page");
 	}
 
 	@When("I navigate to the Business finance section")
 	public void i_navigate_to_the_business_finance_section() {
 		aldermorePageActions.moveToBusinessFinance();
+		ReportUtil.logStepWithScreenshot("I navigate to the Business finance section");
 	}
 
 	@Then("I should see the Business finance Header {string} displayed")
@@ -193,6 +215,7 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getBusinessFinanceHeaderText();
 		String Expectedtext = header;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("I should see the Business finance Header {string} displayed");
 	}
 
 	@And("the Business finance button {string} should be present")
@@ -200,11 +223,14 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getBusinessFinanceButtonText();
 		String Expectedtext = button;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("the Business finance button {string} should be present");
+		
 	}
 
 	@When("I click on the Business finance button")
 	public void i_click_on_the_business_finance_button() {
 		aldermorePageActions.clickOnBusinessFinanceButton();
+		ReportUtil.logStepWithScreenshot("I click on the Business finance button");
 	}
 
 	@Then("I should be redirected to the Business finance page")
@@ -214,11 +240,13 @@ public class AldermorePageSteps {
 
 		String ExpectedTitle = "Business Finance | Aldermore Bank";
 		assertEquals(ActualTitle, ExpectedTitle);
+		ReportUtil.logStepWithScreenshot("I should be redirected to the Business finance page");
 	}
 
 	@When("I navigate to the Intermediaries Banner section")
 	public void i_navigate_to_the_intermediaries_banner_section() {
 		aldermorePageActions.moveToIntermediariesBanner();
+		ReportUtil.logStepWithScreenshot("I navigate to the Intermediaries Banner section");
 	}
 
 	@Then("I should see the Intermediaries Banner Header {string} displayed")
@@ -226,6 +254,7 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getIntermediariesBannerHeaderText();
 		String Expectedtext = header;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("I should see the Intermediaries Banner Header {string} displayed");
 	}
 
 	@And("the Intermediaries Banner link {string} should be present")
@@ -233,11 +262,13 @@ public class AldermorePageSteps {
 		String ActualText = aldermorePageActions.getIntermediariesBannerLinkText();
 		String Expectedtext = button;
 		assertEquals(ActualText, Expectedtext);
+		ReportUtil.logStepWithScreenshot("the Intermediaries Banner link {string} should be present");
 	}
 
 	@When("I click on the Find out more link")
 	public void i_click_on_the_find_out_more_link() {
 		aldermorePageActions.clickOnIntermediariesBanner();
+		ReportUtil.logStepWithScreenshot("I click on the Find out more link");
 	}
 
 	@Then("I should be redirected to the Intermediaries Banner page")
@@ -245,6 +276,7 @@ public class AldermorePageSteps {
 		String ActualTitle = SeleniumDriver.getDriver().getTitle();
 		String ExpectedTitle = "Intermediaries | Aldermore Bank";
 		assertEquals(ActualTitle, ExpectedTitle);
+		ReportUtil.logStepWithScreenshot("I should be redirected to the Intermediaries Banner page");
 	}
 
 }

@@ -36,6 +36,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebElement;
 import pages.actions.AldermoreHomePageActions;
 import utils.SeleniumDriver;
+import utils.ExtentTestNGListener.ReportUtil;
 
 import java.util.List;
 
@@ -47,6 +48,7 @@ public class HomepageTabsSteps {
     public void i_expand_the_tab(String tabName) {
         homePageActions.expandTab(tabName);
         SeleniumDriver.waitForPageToLoad();
+        ReportUtil.logStepWithScreenshot("I expand the {string} tab");
     }
 
     @Then("I should verify the link {string} under {string} tab is working")
@@ -55,6 +57,7 @@ public class HomepageTabsSteps {
         String pageTitle = SeleniumDriver.getPageTitle(link);
 
         System.out.println("✅ Verified link: " + linkName + " | Tab: " + tabName + " | Title: " + pageTitle);
+        ReportUtil.logStepWithScreenshot("I am on Aldermore home page");
 
         // optional: you can add assertions if titles/URLs must match expected
         // Assert.assertTrue(pageTitle.contains(expectedPart), "Page title mismatch!");

@@ -1,33 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <extentreports>
-    <configuration>
-        <!-- Report Styling -->
-        <theme>dark</theme>
-        <encoding>UTF-8</encoding>
-        <protocol>HTTPS</protocol>
+	<configuration>
+		<!-- report theme -->
 
-        <!-- Titles -->
-        <documentTitle>Automation Execution Report</documentTitle>
-        <reportName>Aldermore Automation Suite</reportName>
+		<!-- standard, dark -->
 
-        <!-- Chart & Layout -->
-        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
-        <timelineEnabled>true</timelineEnabled>
-        <testViewChartLocation>top</testViewChartLocation>
+		<theme>standard</theme>
+		<!-- document encoding -->
 
-        <!-- Additional Views -->
-        <enableCategoryView>true</enableCategoryView>
-        <enableAuthorView>true</enableAuthorView>
-        <enableExceptionView>true</enableExceptionView>
+		<!-- defaults to UTF-8 -->
 
-        <!-- Timestamp format -->
-        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+		<encoding>UTF-8</encoding>
+		<!-- protocol for script and stylesheets -->
 
-        <!-- Custom CSS -->
-        <css>
-            .badge-primary { background-color: #0066cc; }
-            .status.pass { background-color: #28a745; }
-            .status.fail { background-color: #dc3545; }
-            .status.skip { background-color: #ffc107; }
-        </css>
-    </configuration>
+		<!-- defaults to https -->
+
+		<protocol>http</protocol>
+		<!-- title of the document -->
+		<documentTitle>Extent</documentTitle>
+		<!-- report name - displayed at top-nav -->
+
+		<reportName>CMS Cucumber Extent Report</reportName>
+		<!-- location of charts in the test view -->
+
+		<!-- top, bottom -->
+
+		<testViewChartLocation>bottom</testViewChartLocation>
+		<!-- custom javascript -->
+		
+		<scripts>
+
+
+			<![CDATA[
+$(document).ready(function() {
+});
+]]>
+		</scripts>
+		<!-- custom styles -->
+		<styles>
+			<![CDATA[
+]]>
+		</styles>
+	</configuration>
 </extentreports>
